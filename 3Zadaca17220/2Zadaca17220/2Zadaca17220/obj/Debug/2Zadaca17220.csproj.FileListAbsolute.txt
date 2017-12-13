@@ -1,0 +1,100 @@
+c:\users\asuspc\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.exe.config
+c:\users\asuspc\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.exe
+c:\users\asuspc\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.pdb
+c:\users\asuspc\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.csprojResolveAssemblyReference.cache
+c:\users\asuspc\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Form1.resources
+c:\users\asuspc\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Properties.Resources.resources
+c:\users\asuspc\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.csproj.GenerateResource.Cache
+c:\users\asuspc\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.exe
+c:\users\asuspc\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.pdb
+c:\users\asuspc\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajBatchelora.resources
+C:\Users\AsusPC\Documents\Visual Studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajMastera.resources
+C:\Users\AsusPC\Documents\Visual Studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Obrisi.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Login.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Nastavnoosoblje.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.NeNastavnoOsoblje.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.ObrisiUposlenog.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajPredmet.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Glavna_forma.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Form2.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Slika.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.ObrisiPredmet.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Nastavnik.resources
+C:\Users\AsusPC\documents\visual studio 2015\Projects\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Pretraga.resources
+D:\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.exe.config
+D:\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.exe
+D:\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.pdb
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.exe.config
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.exe
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.pdb
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.exe
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.pdb
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.csprojResolveAssemblyReference.cache
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajBatchelora.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajMastera.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajPredmet.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Form1.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Form2.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Glavna_forma.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Login.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Nastavnik.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Nastavnoosoblje.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.NeNastavnoOsoblje.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Obrisi.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.ObrisiPredmet.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.ObrisiUposlenog.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Pretraga.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Properties.Resources.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Slika.resources
+C:\Users\mali_cox\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.csproj.GenerateResource.Cache
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.exe.config
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.exe
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.pdb
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.exe
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.pdb
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.csprojResolveAssemblyReference.cache
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajBatchelora.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajMastera.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajPredmet.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Form1.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Form2.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Glavna_forma.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Login.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Nastavnik.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Nastavnoosoblje.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.NeNastavnoOsoblje.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Obrisi.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.ObrisiPredmet.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.ObrisiUposlenog.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Pretraga.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Properties.Resources.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Slika.resources
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.csproj.GenerateResource.Cache
+C:\Users\AsusPC\Desktop\Druga god\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DataGrid.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.exe.config
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.exe
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.pdb
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.exe
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.pdb
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.csprojResolveAssemblyReference.cache
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DataGrid.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajBatchelora.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajMastera.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.DodajPredmet.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Form1.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Form2.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Glavna_forma.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Login.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Nastavnik.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Nastavnoosoblje.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.NeNastavnoOsoblje.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Obrisi.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.ObrisiPredmet.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.ObrisiUposlenog.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Pretraga.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Properties.Resources.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\_2Zadaca17220.Slika.resources
+C:\Users\AsusPC\Desktop\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.csproj.GenerateResource.Cache
+C:\Users\AsusPC\Desktop\Druga god\3Zadaca17220\2Zadaca17220\2Zadaca17220\bin\Debug\2Zadaca17220.exe.config
+C:\Users\AsusPC\Desktop\Druga god\3Zadaca17220\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.exe
+C:\Users\AsusPC\Desktop\Druga god\3Zadaca17220\2Zadaca17220\2Zadaca17220\obj\Debug\2Zadaca17220.pdb
