@@ -1,0 +1,45 @@
+Analiza dizajniranog dijagrama klase i moguænost upotrebe dizajn paterna.
+
+Kreacijski paterni:
+-Singleton pattern
+Uloga Singleton paterna je da osigura da se klasa može instancirati samo jednom i da osigura globalni pristup kreiranoj instanci klase. Na našem dijagramu klase ovaj patern se ne bi mogao implementirati bez veæih promjena u samom dijagramu klase. 
+-Prototype pattern
+Motivacija za uvoðenje Prototype paterna jeste kloniranje objekata umjesto instanciranje tih objekata. U prototip paternu imamo: Client klasu-zahtijeva
+kloniranje postojeæeg objekta preko interfejsa IPrototype, Iprototype - interfejs kojim se omoguæava kloniranje postojeæih konkretnih objekata, Prototype1,Prototype2 su klase koje implementiraju kloniranje postojeæih objekata. Na našem dijagramu klasa možemo ovaj patern prikazati na sljedeæi naèin. Imamo dvije klase VipKarta i ObiènaKarta(dok je Karta apstraktna klasa) koje implementiraju metodu Kloniraj(), svaka na svoj naèin i obje klase su povezane sa interfejsom Karta koji sadrži u sebi metodu Kloniraj() i koja nije implementirana. Uz to imamo i klasu Klijent koja u sebi sadrži metodu OperationCreate() koja zahtjeva kloniranje postojeæih objekata preko interfejsa. 
+-Factory Method pattern
+Ovaj patern je vjerovatno najviše korišten patern u modernim jezicima za programiranje kao što su Java i C#. Namjena mu je da omoguæi kreiranje objekata na naèin da podklase odluèe koju klasu treba instancirati. Implementacija je dosta jednostavna. Klijent klasa treba objekat tipa Produkt klase, ali umjesto kreiranja objekta tipa Produkt direktno koristeæi novi operator, klijent klasa pita objekat klase Fabrika za novi produkt, dobivajuæi informaciju o tipu objekta koji je zaista i potreban. Objekat klase Fabrika instancira novi konkretni produkt i tada vraæa objektu klase Klijent novi kreirani produkt. Klijent koristi produkte kao apstraktne produkte bez znanja o njihovim konkretnim implementacijama. Ovaj patern nije moguæe primjeniti na našem dijagramu klasa. Da smo imali sluèaj da je npr Proizvod generièka klasa i da imamo npr Piæe ili Kokice klase koje su izvedene iz tih klasa, a uz to i klasu dobavljaè i interfejs koji ima metodu kreirajProizvod() koja u zavisnosti od potrebe zahtijeva od dobavljaèa da kreira ili Piæe ili Kokice u zavisnosti od potrebe ovaj patern bismo mogli iskoristiti.
+-Abstract Factory pattern
+Abstract Factory patern omoguæava da se kreiraju familije povezanih objekata/produkata. Klase koje uèestvuju u ovom paternu su: AbstractFactory-deklariše interfejs za operacije koje kreiraju apstraktne produkte, ConcreteFactory-implementira operacije za kreiranje konkretnih produkata, AbstractProduct-deklariše interfejs za tipove produkata,Product- definiše produkt koji æe biti kreiran odgovarajuæom ConcreteFactory;implementira AbstractProduct interfejs i Client-koristi interfejs deklarisan od AbstractFactory i AbstractProduct klasa. Ovaj patern je slièan prethodnom i ne bi se mogao primjeniti na naš dijagram klasa.U sluèaju da smo imali sluèaj kao kod Factory method paterna kada smo iskoristili taj patern, mogli bismo iskoristiti na slièan naèin i abstract factory pattern. 
+-Builder pattern
+Uloga Builer paterna je odvajanje specifikacije kompleksnih objekata od njihove stvarne konstrukcije. Uèesnici u ovom paternu su: Builder klasa - specifiše apstraktni interfejs za kreiranje dijelova Product objekta, ConcreteBuilder- konstruiše i stavlja zajedno dijelove produkta implementirajuæi Builder interfejs, Director klasa konstruiše kompleksni objekat koristeæi Builder interfejs, Product - predstavlja kompleksni objekat koji je graðen.
+
+Strukturalni paterni:
+-Adapter pattern
+Osnovna namjena adapter paterna je da omoguæi širu upotrebu veæ postojeæih klasa. Klase/Objekti koji uèestvuju u Adapter paternu su: Target-definiše domenu-specifièni interfejs kojeg Client koristi, Adapter-adaptira interfejs Adaptee prema interfejsu Targeta, Adaptee-definiše postojeæi interfejs kojeg treba adaptirati, Client- saraðuje sa objektima prilagoðujuæi interfejsu Targeta.Ovaj patern bi se mogao primjeniti i na naš dijagram klasa. Imamo klasu PosebniPaketi koja bi nam predstavljala Adaptee, imamo interfejs Kupovina koji može sadržavati metodu obracunajPopust(), možemo napraviti klasu Adapter koja æe naslijediti klasu Adaptee i interfejs Kupovina i koja æe imati istu metodu obracunajPopust(), koja u ovom sluèaju izraèunava popust npr od 100 posto.
+-Façade pattern
+Ovaj patern se koristi kada sistem ima više identificiranih podsistema pri èemu su apstrakcije i implementacija podsistema usko povezane. Strukturu ovog paterna èine sljedeæe klase: Facade-definira i implementira jedinstven interfejs za skup operacija nekog podsistema, SubsystemClassN-definira i implementira N-ti interfejs u skupu interfejsa nekog podsistema. Ovaj patern na našem dijagramu klasa možemo primjeniti na sljedeæi naèin. Uzmimo primjer da imamo dvije vrste karata(VipKarte i ObicneKarte) i one predstavljaju SubsystemClass1 i SubsystemClass2, i pored toga imamo interfejs Facade koji definiše interfejs za ove dvije vrste karata.
+-Decorator pattern
+Osnovna namjera Decorator paterna je da omoguæi dinamièko dodavanje novih elemenata i ponašanja postojeæim objektima. Klase koje uèestvuju u Decorator paternu su: Component - interfejs za objekte koji imaju odgovornosti koje su im dodane dinamièki,ConcreteComponent-definiše objekt kojem dodatne odgovornosti mogu biti dodane,Decorator-zadržava referencu objekta Component i definiše interfejs koji odgovara interfejsu Component, Concrete Decorators- proširuje funkcionalnost komponente dodavajuæi stanje ili ponašanje. Ovaj patern nije primjenjiv na našem dijagramu klasa iz razloga što se ovaj patern postavlja kada je potrebno dinamièki dodati ili ukloniti odgovornosti nekoj klasi.
+-Bridge pattern
+Osnovna namjena Bridge paterna je da omoguæi odvajanje apstrakcije i implementacije neke klase tako da ta klasa može posjedovati više apstrakcija i više razlièitih implementacija za pojedine apstrakcije. Uèesnici u Bridge paternu su: Abstraction-definiše apstraktni interfejs, AbstractionImpl-Implementira interfejs Abstraction koristeæi referencu na objekt tipa Implementor, Implementor- definiše interfejs za implementacijske klase, ConcreteImplementor1,ConcreteImplementor2-Implementira interfejs Implementora.Ovaj patern se ne bi mogao primjeniti na našem dijagramu klase bez dodatnih izmjena. 
+-Composite pattern
+Osnovna namjena Composite paterna je da omoguæi formiranje strukture stabla pomoæu klasa, u kojoj se individualni objekti i kompozicije individualnih objekata jednako tretiraju.Uèesnici u Composite paternu su: Component- definiše interfejs koji treba biti implementiran od objekata u kompoziciji, Leaf-objekti koji nemaju djecu komponente, Composite-sadržavaju djecu komonente u cilju da implementiraju metode definisane od Component interfejsa, Client-manipuliše objektima u hijerarhiji koristeæi Component interfejs. Buduæi da u našem dijagramu klasa nemamo puno nasljeðivanja, ovaj patern nije primjenjiv.
+-Proxy pattern 
+Namjena Proxy paterna je da omoguæi pristup i kontrolu pristupa stvarnim objektima. Uèesnici u Proxy paternu su: Subject-interfejs implementiran od RealSubjecta i predstavlja njegove namjene, Proxy-zadržava referencu koja omoguæava Proxyju da pristupa RealSubjectu, RealSubject-realni objekat kojeg Proxy predstavlja. Ovaj patern nije primjenjiv u našem dijagramu klase jer nemamo objekata koje zauzimaju veliku kolièinu resursa i koje bi mogli reducirati primjenjujuæi druge manje objekte sa istim interfejsom.
+-Flyweight pattern
+Osnovna namjena Flyweight paterna je upravo da se omoguæi da više razlièitih objekata dijele isto glavno stanje, a imaju razlièito sporedno stanje. Uèesnici u Flyweight paternu su: Flyweight-deklariše interfejs koji daje informaciju o odreðenom stanju, ConcreteFlyweight-implementira Flyweight interfejs i èuva odreðeno stanje, FlyweightFactory-kreira i upravlja flyweight objektima,Client-zadržava reference na flyweight objekte.Ovaj patern nije primjenjiv u našem dijagramu.
+
+Paterni ponašanja:
+-Chain of responsibility pattern
+Ovaj patern dopušta objektu da šalje komandu bez znanja koji æe objekat primiti je i koji æe reagovati na tu poruku. Ovaj patern nije primjenjiv na našem dijagramu stanja.
+-Command pattern
+-Interpreter pattern
+-Iterator pattern
+Ideja uvoðenja Iterator paterna je preuzimanje odgovornosti pristupanja i slanja objekte kolekcije i stavljanja ih kao iterator objekat.
+-Mediator pattern
+-Memento pattern
+-Observer pattern
+Definiše jednu ili više ovisnosti izmeðu objekata tako da kada jedan objekat promjeni stanje, sve njegove zavisnosti su izmjenjene automatski.Ovaj patern nije primjenjiv na našem dijagramu stanja.
+-Strategy pattern
+-Visitor pattern
+-Null Object pattern

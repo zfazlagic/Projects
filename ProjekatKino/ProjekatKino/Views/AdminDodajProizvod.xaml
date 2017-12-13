@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="ProjekatKino.Views.AdminDodajProizvod"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatKino.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer>
+        <Grid>
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/kino1.png"/>
+            </Grid.Background>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="234,192,0,0" TextWrapping="Wrap" Text="Dodaj proizvod" VerticalAlignment="Top" Height="52" FontFamily="Cambria" FontSize="35"/>
+            <TextBox x:Name="textBoxNazivProizvoda" HorizontalAlignment="Left" Margin="234,314,0,0" TextWrapping="Wrap" Text="{Binding Naziv, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="271" Height="38"/>
+            <RelativePanel HorizontalAlignment="Left" Height="120" Margin="44,162,0,0" VerticalAlignment="Top" Width="140">
+                <RelativePanel.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/add1.png"/>
+                </RelativePanel.Background>
+
+            </RelativePanel>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="234,262,0,0" TextWrapping="Wrap" Text="Hrana i piće" VerticalAlignment="Top" RenderTransformOrigin="0.194,1.35" FontFamily="Cambria" FontSize="24"/>
+            <TextBox x:Name="textBoxVrstaProizvoda" HorizontalAlignment="Left" Margin="234,398,0,0" TextWrapping="Wrap" Text="{Binding Vrsta, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Height="20" Width="271"/>
+            <TextBox x:Name="textBoxCijenaProizvoda" HorizontalAlignment="Left" Margin="234,471,0,0" TextWrapping="Wrap" Text="{Binding Cijena, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="271"/>
+            <Button x:Name="button" Content="Dodaj" HorizontalAlignment="Left" VerticalAlignment="Top" Height="36" Margin="406,652,0,0" Width="99" Background="#33E6DADA" BorderBrush="#FFF1E5E5" FontFamily="Cambria" FontSize="20" FontWeight="Bold" Command="{Binding Dodaj}"/>
+            <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="694,262,0,0" TextWrapping="Wrap" Text="Posebni paketi" VerticalAlignment="Top" RenderTransformOrigin="0.71,-0.5" FontSize="24" FontFamily="Cambria"/>
+            <TextBox x:Name="textBoxNazivPP" HorizontalAlignment="Left" Margin="694,314,0,0" TextWrapping="Wrap" Text="{Binding NazivPosebnog, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" RenderTransformOrigin="0.958,0.5" Width="257"/>
+            <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="694,363,0,0" TextWrapping="Wrap" Text="Sadrzaj" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+            <TextBox x:Name="textBoxSadrzaj1" HorizontalAlignment="Left" Margin="694,413,0,0" TextWrapping="Wrap" Text="{Binding Sadrzaj1, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="257"/>
+            <TextBox x:Name="textBoxSadrzaj2" HorizontalAlignment="Left" Margin="694,471,0,0" TextWrapping="Wrap" Text="{Binding Sadrzaj2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" RenderTransformOrigin="0.338,0.438" Width="257"/>
+            <TextBox x:Name="textBoxOpisPP" HorizontalAlignment="Left" Margin="999,413,0,0" TextWrapping="Wrap" Text="{Binding KratakOpisPosebnog, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Height="134" Width="252"/>
+            <TextBox x:Name="textBoxCijenaPP" HorizontalAlignment="Left" Margin="694,533,0,0" TextWrapping="Wrap" Text="{Binding CijenaPosebnog, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="257"/>
+            <Button x:Name="button1" Content="Dodaj" HorizontalAlignment="Left" Margin="1138,652,0,0" VerticalAlignment="Top" Width="113" Background="#33F9F1F1" BorderBrush="#FFF3EFEF" FontFamily="Cambria" FontSize="20" FontWeight="Bold" Command="{Binding DodajPosebni}" />
+            <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="144,326,0,0" TextWrapping="Wrap" Text="Naziv" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="144,398,0,0" TextWrapping="Wrap" Text="Vrsta" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock5_Copy" HorizontalAlignment="Left" Margin="144,471,0,0" TextWrapping="Wrap" Text="Cijena" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock4_Copy" HorizontalAlignment="Left" Margin="635,314,0,0" TextWrapping="Wrap" Text="Naziv" VerticalAlignment="Top" Height="32" Width="59"/>
+            <TextBlock x:Name="textBlock4_Copy1" HorizontalAlignment="Left" Margin="630,471,0,0" TextWrapping="Wrap" Text="Sadrzaj" VerticalAlignment="Top" Height="32" Width="59"/>
+            <TextBlock x:Name="textBlock4_Copy3" HorizontalAlignment="Left" Margin="630,413,0,0" TextWrapping="Wrap" Text="Sadrzaj" VerticalAlignment="Top" Height="32" Width="59"/>
+            <TextBlock x:Name="textBlock5_Copy1" HorizontalAlignment="Left" Margin="630,533,0,0" TextWrapping="Wrap" Text="Cijena" VerticalAlignment="Top" Height="32" Width="59"/>
+            <TextBlock x:Name="textBlock5_Copy2" HorizontalAlignment="Left" Margin="999,375,0,0" TextWrapping="Wrap" Text="Kratak opis" VerticalAlignment="Top" Height="32" Width="59"/>
+            <RelativePanel HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="44,32,0,0" PointerPressed="RelativePanel_PointerPressed">
+                <RelativePanel.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/backKKKKKKKKKKKK.png"/>
+                </RelativePanel.Background>
+            </RelativePanel>
+
+        </Grid>
+    </ScrollViewer>
+</Page>

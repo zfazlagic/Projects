@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="ProjekatKino.Views.FrameProdajaHrane"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatKino.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ScrollViewer>
+        <Grid>
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/kino1.png"/>
+            </Grid.Background>
+
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="47,177,0,0" TextWrapping="Wrap" Text="Prodaja hrane i pića" VerticalAlignment="Top" FontFamily="Cambria" FontSize="35" RenderTransformOrigin="0.38,0.317"/>
+            <ListView x:Name="listView1" HorizontalAlignment="Left" Height="100" Margin="456,648,0,-28" VerticalAlignment="Top" Width="100"/>
+            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="47,313,0,0" VerticalAlignment="Top" Width="272" Height="50"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="47,261,0,0" TextWrapping="Wrap" Text="Naziv proizvoda" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+            <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="482,266,0,0" TextWrapping="Wrap" Text="Velicina proizvoda" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+            <RadioButton x:Name="radioButton" Content="Mali" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="482,328,0,0" FontFamily="Cambria" FontSize="24"/>
+            <RadioButton x:Name="radioButton1" Content="Srednji" HorizontalAlignment="Left" Margin="482,396,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Cambria"/>
+            <RadioButton x:Name="radioButton2" Content="Veliki" HorizontalAlignment="Left" Margin="482,459,0,0" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+            <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="896,331,0,0" TextWrapping="Wrap" Text="Cijena" VerticalAlignment="Top" Height="29" Width="272"/>
+            <Button x:Name="button" Content="Prodaj" HorizontalAlignment="Left" Margin="999,608,0,0" VerticalAlignment="Top" Height="62" Width="137" FontFamily="Cambria" FontSize="24" FontWeight="Bold" Background="#33F7EFEF" BorderBrush="#FFFBEDED" RenderTransformOrigin="0.613,-0.919"/>
+            <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="896,266,0,0" TextWrapping="Wrap" Text="Cijena" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+            <RelativePanel HorizontalAlignment="Left" Height="100" Margin="28,30,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.14,0.12" PointerPressed="RelativePanel_PointerPressed">
+                <RelativePanel.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/backKKKKKKKKKKKK.png"/>
+                </RelativePanel.Background>
+            </RelativePanel>
+
+        </Grid>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="ProjekatKino.Views.AdminPocetna"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatKino.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/kino1.png"/>
+        </Grid.Background>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="98,407,0,0" TextWrapping="Wrap" Text="Dodaj uposlenog" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+        <RelativePanel HorizontalAlignment="Left" Height="188" Margin="76,214,0,0" VerticalAlignment="Top" Width="251" PointerPressed="RelativePanel_PointerPressed_1">
+            <RelativePanel.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/icon-person-add-512.png"/>
+            </RelativePanel.Background>
+        </RelativePanel>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="385,412,0,0" TextWrapping="Wrap" Text="Obrisi uposlenog" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+        <RelativePanel HorizontalAlignment="Left" Height="188" Margin="357,214,0,0" VerticalAlignment="Top" Width="230" PointerPressed="RelativePanel_PointerPressed_2" >
+            <RelativePanel.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/remove.png"/>
+            </RelativePanel.Background>
+        </RelativePanel>
+        <RelativePanel HorizontalAlignment="Left" Height="118" Margin="98,470,0,0" VerticalAlignment="Top" Width="140" PointerPressed="RelativePanel_PointerPressed_3" >
+            <RelativePanel.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/podesavanja.png"/>
+            </RelativePanel.Background>
+        </RelativePanel>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="98,603,0,0" TextWrapping="Wrap" Text="Tehnički pregled" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+        <RelativePanel HorizontalAlignment="Left" Height="133" Margin="783,246,0,0" VerticalAlignment="Top" Width="170" PointerPressed="RelativePanel_PointerPressed_4">
+            <RelativePanel.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/add1.png"/>
+            </RelativePanel.Background>
+        </RelativePanel>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="783,389,0,0" TextWrapping="Wrap" Text="Dodaj proizvod" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+        <RelativePanel HorizontalAlignment="Left" Height="135" Margin="783,453,0,0" VerticalAlignment="Top" Width="376" PointerPressed="RelativePanel_PointerPressed_5">
+            <RelativePanel.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/adfilm.png"/>
+            </RelativePanel.Background>
+
+        </RelativePanel>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="783,608,0,0" TextWrapping="Wrap" Text="Dodaj film" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+        <RelativePanel HorizontalAlignment="Left" Height="134" Margin="1026,245,0,0" VerticalAlignment="Top" Width="158" PointerPressed="RelativePanel_PointerPressed">
+            <RelativePanel.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/prodzekcija.png"/>
+            </RelativePanel.Background>
+            
+        </RelativePanel>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="1026,394,0,0" TextWrapping="Wrap" Text="Dodaj projekciju" VerticalAlignment="Top" FontFamily="Cambria" FontSize="24"/>
+
+    </Grid>
+</Page>

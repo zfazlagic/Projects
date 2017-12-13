@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="ProjekatKino.Views.FrameKorisnik"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatKino.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Assets/pozadina.jpg" Stretch="Fill"/>
+        </Grid.Background>
+
+        <Rectangle Name="opcijaKupiKartu" HorizontalAlignment="Left" Height="100" Margin="424,239,0,0" Stroke="White" VerticalAlignment="Top" Width="340" Tapped="opcijaKupiKartu_Tapped" >
+           
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Uniform" ImageSource="ms-appx:///Assets/ikonaKarte.png"/>
+            </Rectangle.Fill>
+
+        </Rectangle>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="424,319,0,0" TextWrapping="Wrap" Text="Kupovina karata
+                   " VerticalAlignment="Top" Foreground="White">
+
+        </TextBlock>
+        <Rectangle Name="opcijaVasRacun" HorizontalAlignment="Left" Height="85" Stroke="White" VerticalAlignment="Top" Width="119" Margin="1055,174,0,0" RenderTransformOrigin="0.496,0.529" >
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Uniform" ImageSource="ms-appx:///Assets/vasRacunIkona.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" Text=" Vas Racun" VerticalAlignment="Top" Margin="1055,239,0,0" Foreground="White"/>
+        <Rectangle Name="opcijaHome" HorizontalAlignment="Left" Height="100" Margin="424,345,0,0" Stroke="White" VerticalAlignment="Top" Width="340" Tapped="opcijaHome_Tapped">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="ms-appx:///Assets/ikonaHomePage.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="424,425,0,0" TextWrapping="Wrap" Text="Naslovna" VerticalAlignment="Top" Foreground="White"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="424,450,0,0" Stroke="White" VerticalAlignment="Top" Width="340" Tapped="Rectangle_Tapped">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="ms-appx:///Assets/ikonaPosebnaPonuda.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="424,555,0,0" Stroke="White" VerticalAlignment="Top" Width="340" Tapped="Rectangle_Tapped_1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="ms-appx:///Assets/ikonaFindMyMovie.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="424,530,0,0" TextWrapping="Wrap" Text="Posebne ponude" VerticalAlignment="Top" Foreground="White" />
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="424,635,0,0" TextWrapping="Wrap" Text="Find My Movie" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="15,59,0,0" VerticalAlignment="Top" Height="52" Width="44">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Assets/backIcon.png"/>
+            </Button.Background>
+        </Button>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="125,40,0,0" VerticalAlignment="Top" Width="100" Source="ms-appx:///Assets/backKKKKKKKKKKKK.png" Tapped="image_Tapped"/>
+
+
+
+    </Grid>
+</Page>

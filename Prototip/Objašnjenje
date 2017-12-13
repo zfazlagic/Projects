@@ -1,0 +1,2 @@
+Neke stavke u aplikaciji su zajedničke za korisnika sa ulogom "Gost" i korisnike sa ulogom "Registrovani". Zbog toga imamo neke prikaze 
+koji su zajednički za obje uloge pa ih nismo uploadovali da ne bismo imali duplikate.
